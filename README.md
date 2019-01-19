@@ -1,2 +1,6 @@
 # Aimware-CFG
-Rage cfg is good for danger zone and surf RPG
+HvH Spread is my old hvh cfg 
+Legit visuals copied from x88 cheat:)
+Rage cfg is good for dangerzone and surf RPG
+
+
