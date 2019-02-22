@@ -341,7 +341,7 @@
 <000>msc_fakelag_enable 1
 <001>msc_fakelag_key 0
 <000>msc_fakelag_mode 4
-<000>msc_fakelag_peekdist 19.9531
+<000>msc_fakelag_peekdist 15.0235
 <000>msc_fakelag_standing 1
 <000>msc_fakelag_style 2
 <000>msc_fakelag_unducking 1
@@ -367,6 +367,7 @@
 <001>msc_namestealer_interval 0
 <001>msc_panickey 0
 <000>msc_playerlist 0
+<000>msc_quickstop 0
 <000>msc_restrict 2
 <000>msc_revealranks 1
 <000>msc_showspec 0
@@ -384,20 +385,20 @@
 <000>rbot_aimkey 0
 <000>rbot_aimlock 0
 <000>rbot_antiaim_at_targets 1
-<000>rbot_antiaim_autodir 3
+<000>rbot_antiaim_autodir 2
 <000>rbot_antiaim_edge_desync 1
 <000>rbot_antiaim_edge_pitch_custom 0
 <001>rbot_antiaim_edge_pitch_real 1
-<003>rbot_antiaim_edge_real 5
+<003>rbot_antiaim_edge_real 1
 <002>rbot_antiaim_edge_real_add 0
 <000>rbot_antiaim_enable 1
 <000>rbot_antiaim_fakeduck 90
-<000>rbot_antiaim_jitter_range 60
+<000>rbot_antiaim_jitter_range 0
 <000>rbot_antiaim_ladder 0
-<000>rbot_antiaim_move_desync 1
+<000>rbot_antiaim_move_desync 2
 <000>rbot_antiaim_move_pitch_custom 0
 <001>rbot_antiaim_move_pitch_real 1
-<003>rbot_antiaim_move_real 2
+<003>rbot_antiaim_move_real 1
 <002>rbot_antiaim_move_real_add 0
 <000>rbot_antiaim_on_dormant 1
 <000>rbot_antiaim_on_freezeperiod 0
@@ -405,15 +406,15 @@
 <000>rbot_antiaim_on_knife 1
 <000>rbot_antiaim_on_use 0
 <000>rbot_antiaim_randomize_on_hs 1
-<000>rbot_antiaim_spinbot_speed 0.469484
-<000>rbot_antiaim_stand_desync 1
+<000>rbot_antiaim_spinbot_speed 0.0938969
+<000>rbot_antiaim_stand_desync 2
 <000>rbot_antiaim_stand_pitch_custom 0
 <001>rbot_antiaim_stand_pitch_real 1
-<003>rbot_antiaim_stand_real 3
+<003>rbot_antiaim_stand_real 1
 <002>rbot_antiaim_stand_real_add 0
-<000>rbot_antiaim_stand_velocity 250
-<000>rbot_antiaim_switch_range 60
-<000>rbot_antiaim_switch_speed 1
+<000>rbot_antiaim_stand_velocity 100.999
+<000>rbot_antiaim_switch_range 0
+<000>rbot_antiaim_switch_speed 0
 <000>rbot_antirecoil 1
 <000>rbot_antispread 1
 <001>rbot_autosniper_autoscope 2
@@ -436,7 +437,7 @@
 <000>rbot_autosniper_hitbox_chest 1
 <000>rbot_autosniper_hitbox_chest_ps 0.596244
 <000>rbot_autosniper_hitbox_head 1
-<000>rbot_autosniper_hitbox_head_ps 0.802817
+<000>rbot_autosniper_hitbox_head_ps 0.295775
 <000>rbot_autosniper_hitbox_legs 1
 <000>rbot_autosniper_hitbox_legs_ps 0.300469
 <000>rbot_autosniper_hitbox_method 0
@@ -452,7 +453,7 @@
 <000>rbot_autosniper_ignorelimbsifwalking 0
 <000>rbot_autosniper_mindamage 15
 <000>rbot_autosniper_mode 2
-<000>rbot_chargerapidfire 86
+<000>rbot_chargerapidfire 67
 <000>rbot_delayshot 1
 <000>rbot_enable 1
 <000>rbot_fov 180
@@ -529,7 +530,7 @@
 <000>rbot_pistol_mode 2
 <000>rbot_positionadjustment 5
 <001>rbot_resolver 1
-<000>rbot_resolver_override 67
+<000>rbot_resolver_override 6
 <000>rbot_revolver_autocock 1
 <000>rbot_revolver_autostop 2
 <000>rbot_revolver_autostop_duck 0
@@ -635,7 +636,7 @@
 <000>rbot_scout_hitbox_stomach 1
 <000>rbot_scout_hitbox_stomach_ps 0.450704
 <000>rbot_scout_hitchance 100
-<000>rbot_scout_ignorelimbsifwalking 1
+<000>rbot_scout_ignorelimbsifwalking 0
 <000>rbot_scout_mindamage 80
 <000>rbot_scout_mode 2
 <000>rbot_shared_autoawp 0
@@ -1154,18 +1155,76 @@
 <000>vis_nosmoke 1
 <000>vis_scoperemover 2
 <000>vis_skybox 9
-<000>vis_thirdperson_dist 150
-<000>vis_thirdperson_mode 1
+<000>vis_thirdperson_dead 0
+<000>vis_thirdperson_dist 0
+<000>vis_thirdperson_nade 0
 <001>vis_togglekey 0
 <000>vis_view_fov 100.282
 <000>vis_view_model_fov 89.5775
-<000>wnd_menu 513 162
+<000>wnd_menu 281 140
 <000>wnd_mirrorview 500 50
 <000>wnd_playerlist 1540 244
 <000>wnd_radar 883 795
 <000>wnd_showspec 8 280
 <000>wnd_skinchanger 0 179
 <000>wnd_spycamera 16 16
+<000>lua_drawhitboxhit 1
+<000>lua_drawhitboxhit_time 2
+<000>lua_drawhitboxhit_size 6
+<000>lua_disablepostprocess 1
+<000>rbot_revolver_autocock_ex 0
+<000>lua_snipercrosshair 0
+<000>wind 200 200
+<000>c 0
+<000>xS 1
+<000>yS 1
+<000>zS -1
+<000>vfov 60
+<000>msc_quickpeek_indicator 0
+<000>msc_quickpeek_indicator 0
+<000>rbot_shared_quickpeek_key 0
+<000>rbot_shared_quickpeek_returnaftershots 1
+<000>rbot_shared_quickpeek_knife 1
+<000>rbot_pistol_quickpeek_key 0
+<000>rbot_pistol_quickpeek_returnaftershots 1
+<000>rbot_pistol_quickpeek_knife 1
+<000>rbot_revolver_quickpeek_key 0
+<000>rbot_revolver_quickpeek_returnaftershots 1
+<000>rbot_revolver_quickpeek_knife 1
+<000>rbot_smg_quickpeek_key 0
+<000>rbot_smg_quickpeek_returnaftershots 1
+<000>rbot_smg_quickpeek_knife 1
+<000>rbot_rifle_quickpeek_key 0
+<000>rbot_rifle_quickpeek_returnaftershots 1
+<000>rbot_rifle_quickpeek_knife 1
+<000>rbot_shotgun_quickpeek_key 0
+<000>rbot_shotgun_quickpeek_returnaftershots 1
+<000>rbot_shotgun_quickpeek_knife 1
+<000>rbot_scout_quickpeek_key 4
+<000>rbot_scout_quickpeek_returnaftershots 1
+<000>rbot_scout_quickpeek_knife 1
+<000>rbot_autosniper_quickpeek_key 4
+<000>rbot_autosniper_quickpeek_returnaftershots 2
+<000>rbot_autosniper_quickpeek_knife 1
+<000>rbot_sniper_quickpeek_key 4
+<000>rbot_sniper_quickpeek_returnaftershots 1
+<000>rbot_sniper_quickpeek_knife 1
+<000>rbot_lmg_quickpeek_key 0
+<000>rbot_lmg_quickpeek_returnaftershots 1
+<000>rbot_lmg_quickpeek_knife 1
+<000>vis_soundesp_enable 1
+<000>vis_soundesp_name 1
+<000>vis_soundesp_size 10
+<000>vis_soundesp_thic 0
+<000>vis_soundesp_dur 20
+<000>vis_soundesp_dist 100
+<000>vis_soundesp_red 160
+<000>vis_soundesp_green 160
+<000>vis_soundesp_blue 160
+<000>vis_soundesp_alpha 255
+<000>Active 1
+<000>Type_line 0
+<000>Type_color 0
 <CMD>bind "mouse4" "vis_thirdperson_dist"
 <CMD>bind "c" "vis_thirdperson_dist"
 <CMD>bind "m" """
