@@ -1200,13 +1200,13 @@
 <000>rbot_shotgun_quickpeek_key 0
 <000>rbot_shotgun_quickpeek_returnaftershots 1
 <000>rbot_shotgun_quickpeek_knife 1
-<000>rbot_scout_quickpeek_key 4
+<000>rbot_scout_quickpeek_key 0
 <000>rbot_scout_quickpeek_returnaftershots 1
 <000>rbot_scout_quickpeek_knife 1
-<000>rbot_autosniper_quickpeek_key 4
+<000>rbot_autosniper_quickpeek_key 0
 <000>rbot_autosniper_quickpeek_returnaftershots 2
 <000>rbot_autosniper_quickpeek_knife 1
-<000>rbot_sniper_quickpeek_key 4
+<000>rbot_sniper_quickpeek_key 0
 <000>rbot_sniper_quickpeek_returnaftershots 1
 <000>rbot_sniper_quickpeek_knife 1
 <000>rbot_lmg_quickpeek_key 0
@@ -1226,12 +1226,20 @@
 <000>Type_line 0
 <000>Type_color 0
 <CMD>bind "mouse4" "vis_thirdperson_dist"
+<CMD>bind "left" "lbot_antiaim 90"
+<CMD>bind "right" "lbot_antiaim 260"
 <CMD>bind "c" "vis_thirdperson_dist"
 <CMD>bind "m" """
 <CMD>bind "n" """
 <CMD>bind "x" "vis_thirdperson_dist"
+<CMD>bindtoggle "mouse3" "vis_thirdperson_dist" "0" "150" 0
 <CMD>bindtoggle "mouse4" "vis_thirdperson_dist" "0" "150" 0
+<CMD>bindtoggle "up" "lbot_positionadjustment" "0" "0.2" 0
+<CMD>bindtoggle "down" "lbot_positionadjustment" "0" "0.1" 0
 <CMD>bindtoggle "t" "vis_thirdperson_dist" "0" "180" 0
+<CMD>bindtoggle "v" "vis_thirdperson_dist" "150" "0" 0
+<CMD>alias "isusingaimbot" "lbot_smg_autowall 1;lbot_rifle_autowall 1;lbot_sniper_autowall 1;"
+<CMD>alias "isusingtriggerbot" "lbot_smg_autowall 0;lbot_rifle_autowall 0;lbot_sniper_autowall 0;"
 <CMD>alias "deagauto" "rbot_sniper_mindamage 35;rbot_sniper_hitchance 55;rbot_pistol_hitchance_85;rbot_pistol_mi"
 <CMD>alias "auto" "rbot_sniper_mindamage 35;rbot_sniper_hitchance 55"
 <CMD>alias "deag" "rbot_pistol_hitchance 85;rbot_pistol_mindamage 55"
