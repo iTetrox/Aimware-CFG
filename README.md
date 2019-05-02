@@ -4,8 +4,8 @@
 **Rage cfg is good for dangerzone and surf RPG**
 
 **HvH Spread good Desync**
- - Third Person-mouse4
- - Override Resolver-C
- - Charge Rapid Fire-V
- - Fake Duck-Z
+ - Third Person-mouse3
+ - Override Resolver-mouse4
+ - Charge Rapid Fire-mouse5
+ - Fake Duck-C
  - Slow Walk-X
