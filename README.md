@@ -3,4 +3,6 @@
 
 **Rage cfg is for dangerzone and surf RPG**
 
+Have nice cheating time :)
+
 
